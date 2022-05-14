@@ -1,4 +1,4 @@
-const API_KEY = "f8b8a240131238ce88a55be88f37481d";
+const API_KEY = "";
 export const imageUrl = "https://image.tmdb.org/t/p/original/";
 export const smallImageUrl = "https://image.tmdb.org/t/p/w500/";
 export const netflixOriginals = `discover/movie?api_key=${API_KEY}&with_genres=27`;
