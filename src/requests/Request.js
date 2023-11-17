@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = process.env.REACT_APP_API_KEY;
 export const imageUrl = "https://image.tmdb.org/t/p/original/";
 export const smallImageUrl = "https://image.tmdb.org/t/p/w500/";
 export const netflixOriginals = `discover/movie?api_key=${API_KEY}&with_genres=27`;
